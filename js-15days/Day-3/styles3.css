@@ -43,6 +43,18 @@ button:hover{
   border: 1px solid #999;
   transition: 0.1s ease;
   }
-
+  header h1{
+    font-size: 27px;
+    font-weight: 500;
+  }
+  header p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #474747;
+  }
+  .inputs p {
+   
+    background-color: rgba(6, 255, 255, 0.493);
+  }
   
   
