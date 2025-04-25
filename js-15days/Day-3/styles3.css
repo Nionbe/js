@@ -1,0 +1,48 @@
+body{
+  background-color: blueviolet; 
+}
+.wrapper {
+    margin: 150px ;
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgb(7, 7, 7);
+ background: #fff;
+}
+.wrapper:hover{
+    
+ box-shadow: 0 6px 8px whitesmoke;
+}
+button{
+    border-radius: 20px;
+    color: rgb(0, 255, 170);
+    border-color: aquamarine;
+    height: 50px;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 45px;
+    
+}
+button:hover{
+    
+    box-shadow: 0 2px 7px #474646;
+    color: rgba(12, 177, 67, 0.397);
+}
+::selection{
+    color: #fff;
+    background: rgb(170,87,204,0.8);
+  }
+  .inputs input{
+    
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 0 1px;
+  font-size: 19px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  transition: 0.1s ease;
+  }
+
+  
+  
