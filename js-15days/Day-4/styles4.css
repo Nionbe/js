@@ -1,0 +1,36 @@
+*{
+    margin: 10px;
+
+}
+body{
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+}
+#greeting{
+    background-image: url('ri2.jpg');
+    position: relative;
+    margin-top: 25%;
+    display: flexbox;
+    align-items: center;
+    border-radius: 20px;
+    border:1px solid;
+    height: 50%;
+    padding: 40px;
+    box-shadow: 0 3px 7px;
+}
+button{
+    color: red;
+width: 200px;
+height: 40px;
+margin: 10%;
+}
+p{
+    border: 10px solid cyan;
+}
+input{
+    height: 30px;
+    border-color: transparent;
+    border-bottom:1px solid rgba(55, 98, 179, 0.61) ;
+}

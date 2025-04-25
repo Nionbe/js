@@ -1,11 +1,12 @@
 {
     "editor.cursorStyle": "line",
     "editor.detectIndentation": true,
-    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
     "editor.suggest.snippetsPreventQuickSuggestions": true,
     "launch": {
         
         "configurations": [],
         "compounds": []
-    }
+    },
+    "editor.suggestOnTriggerCharacters": false
 }
