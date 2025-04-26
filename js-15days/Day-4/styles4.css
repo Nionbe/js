@@ -4,12 +4,17 @@
 }
 body{
     height: 600px;
+        background-image: url("ri2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     
+      background-color: blueviolet;
     display: flex;
     justify-content: center;
 }
 #greeting{
-    background-image: url('ri2.jpg');
+    
     position: relative;
     margin-top: 25%;
     display: flexbox;
@@ -19,6 +24,9 @@ body{
     height: 50%;
     padding: 40px;
     box-shadow: 0 3px 7px;
+}
+#greeting:hover{
+    box-shadow: 0 3px 7px white;
 }
 button{
     color: red;
