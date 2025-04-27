@@ -5,7 +5,7 @@ const botResult = document.querySelector(".bot_result img");
 const result = document.querySelector(".result");
 const optionImages = document.querySelectorAll(".option_image");
 // Define possible images and outcomes
-const botImages = ["images/rock.png", "images/paper.png", "images/scissors.png"];
+const botImages = ["https://previews.123rf.com/images/fabrikacrimea/fabrikacrimea2102/fabrikacrimea210200164/162892014-stones-on-sand-japanese-meditation-zen-garden.jpg", "https://previews.123rf.com/images/mohdazrin/mohdazrin2307/mohdazrin230700006/207838024-top-view-blue-scissors-on-a-blue-background.jpg", "https://previews.123rf.com/images/tashka2000/tashka20001304/tashka2000130400073/19427655-detailed-abstract-grey-packaging-paper-texture.jpg"];
 const outcomes = {
   RR: "Draw",
   RP: "BOT",
@@ -22,7 +22,7 @@ function handleOptionClick(event) {
   const clickedImage = event.currentTarget;
   const clickedIndex = Array.from(optionImages).indexOf(clickedImage);
   // Reset results and display "Wait..."
-  userResult.src = botResult.src = "images/rock.png";
+  userResult.src = botResult.src = "https://previews.123rf.com/images/fabrikacrimea/fabrikacrimea2102/fabrikacrimea210200164/162892014-stones-on-sand-japanese-meditation-zen-garden.jpg";
   result.textContent = "Wait...";
   // Activate clicked image and deactivate others
   optionImages.forEach((image, index) => {
