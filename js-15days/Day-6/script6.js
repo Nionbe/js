@@ -55,5 +55,4 @@ resetBtn.addEventListener('click', function(){
 btn.style.justifyContent = 'center';
 btn.style.gap = '10px';
 btn.style.flexWrap = 'nowrap';
-
 });
