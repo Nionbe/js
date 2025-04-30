@@ -1,6 +1,7 @@
 .he{
-    height: 1000px;
-    border: 1px solid;
+    height: 100px;
+    position: relative;
+    margin-top:0x;
 }
 #li{
     display: none;
